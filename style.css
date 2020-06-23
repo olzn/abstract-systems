@@ -53,6 +53,7 @@ body{
     background-color: var(--background-color);
     color: var(--base-text-color);
     font-family: var(--base-font-family);
+    overflow: hidden;
 }
 
 h1{    
@@ -78,7 +79,6 @@ a:focus {
     font-weight: bolder;
     background-color: orange;
     padding: 10px;  
-    /* outline: 2px solid rgb(255, 166, 0); */
   ;
 }
 
@@ -93,7 +93,7 @@ a:focus {
 }
 
 .top{
-    height: 70vh;
+    height: 65vh;
     width: 100%;
     position: relative;
     opacity: 0;
@@ -102,7 +102,7 @@ a:focus {
 
 .top-main{
     position: absolute;
-    top: 55%;
+    top: 50%;
     width: 100%;
 }
 
@@ -123,7 +123,7 @@ a:focus {
 }
 
 .bottom{
-    height: 30vh;
+    height: 35vh;
     opacity: 0;
     animation: appearFromBottom 2s ease-out 1.5s forwards;
 
@@ -180,12 +180,17 @@ a:focus {
     .location{
         text-align: center;
     }
+
+    .main-nav{
+        padding-top: 3vh;
+        padding-bottom: 6vh;
+    }
 }
 
 @media only screen and (max-width: 420px) {
 
     .top-main{
-        top: 20%;
+        top: 16%;
     }
 
     .top-flex{
