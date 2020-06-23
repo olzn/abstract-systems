@@ -150,7 +150,7 @@ a:focus {
     font-family: "NB International Mono";
     font-weight: lighter;
     font-size: .9rem;
-    padding-top: 6vh;
+    padding-top: 8vh;
     display: flex;
     flex-wrap: wrap;
 }
