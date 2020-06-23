@@ -1,0 +1,222 @@
+/************** CSS RESET *****************/
+
+* {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  blockquote, body, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+
+/************** ROOT *****************/
+
+@font-face {
+    font-family: "NB International Regular";
+    src: url(/fonts/NB-International-Regular.ttf);
+}
+
+@font-face {
+    font-family: "NB International Light";
+    font-weight: lighter;
+    src: url(/fonts/NB-International-Light.ttf);
+}
+
+@font-face {
+    font-family: "NB International Mono";
+    font-weight: lighter;
+    src: url(/fonts/NB-International-Mono.ttf);
+}
+
+
+:root {
+    --base-font-family: "NB International Light", "Helvetica Neue", sans-serif;
+    --background-color: #16161d;
+    --base-text-color: #e5e5e5;
+    --text-large: 4.8vw;
+    --base-max-width: 90vw;
+
+}
+
+/************** LAYOUT & TYPOGRAPHY *****************/
+
+
+body{
+    background-color: var(--background-color);
+    color: var(--base-text-color);
+    font-family: var(--base-font-family);
+}
+
+h1{    
+    font-size: var(--text-large);
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+    color: var(--base-text-color);
+    padding-bottom: 4px;
+    border-bottom: 2px dotted #666; 
+}
+
+a:hover{
+    opacity: 60%;
+    transition: 0.3s;
+
+}
+
+a:focus {
+    color: var(--background-color);
+    font-weight: bolder;
+    background-color: orange;
+    padding: 10px;  
+    /* outline: 2px solid rgb(255, 166, 0); */
+  ;
+}
+
+/************** CLASSES *****************/
+
+.root{
+    min-height: 100vh;
+    position: relative;
+    max-width: var(--base-max-width);
+    margin: auto;
+    
+}
+
+.top{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    opacity: 0;
+    animation: appearFromBottom 2s ease-out .5s 1 forwards;
+}
+
+.top-main{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+}
+
+.top-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-text{
+    display: inline;
+}
+
+.top-arrow{
+    font-family: "NB International Light";
+    font-weight: lighter;
+    font-size: var(--text-large);
+}
+
+.bottom{
+    height: 30vh;
+    opacity: 0;
+    animation: appearFromBottom 2s ease-out 1.5s forwards;
+
+}
+
+.name{
+    font-family: "NB International Regular";
+    font-size: 1.8rem;
+}
+
+.location{
+    font-family: "NB International Mono";
+    font-weight: lighter;
+    opacity: 50%;
+    font-size: .9rem;
+    padding-top: 4px;
+}
+
+.bottom-arrow{
+    font-size: 1.2rem;
+}
+
+.main-nav{
+    font-family: "NB International Mono";
+    font-weight: lighter;
+    font-size: .9rem;
+    padding-top: 6vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-nav li{
+    display: inline;
+    padding: 10px 30px 10px 0;
+}
+
+/************** MEDIA QUERY & BREAKPOINTS *****************/
+
+@media only screen and (max-width: 680px) {
+
+    .main-nav{
+        justify-content: space-around;
+    }
+
+    .main-nav li{
+        display: block;
+    }
+
+    .name{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .location{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .top-main{
+        top: 20%;
+    }
+
+    .top-flex{
+        flex-direction: column;
+    }
+
+    .top-text{
+        padding: .8rem 0;
+        display: block;
+    }
+
+    .top-text h1{
+        display: block;
+        font-size: 8vw;
+    }
+
+    .top-arrow{
+        transform: rotate(90deg);
+        font-size: 8vw;
+    }
+
+}
+
+@keyframes appearFromBottom {
+    from{
+      transform: translateY(10%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+
+    }
+  }
