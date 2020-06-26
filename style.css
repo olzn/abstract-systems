@@ -136,7 +136,7 @@ a:focus {
 }
 
 .location{
-    font-family: "NB International Mono";
+    font-family: "NB International Mono";   
     font-weight: lighter;
     opacity: 50%;
     font-size: .9rem;
@@ -177,6 +177,7 @@ a:focus {
     }
 
     .name{
+        padding-top: 10px;
         font-size: 1.2rem;
         text-align: center;
     }
