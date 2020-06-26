@@ -77,7 +77,7 @@ a:hover{
 a:focus {
     color: var(--background-color);
     font-weight: bolder;
-    background-color: orange;
+    background-color:  orange;
     padding: 10px;  
   ;
 }
@@ -102,7 +102,7 @@ a:focus {
 
 .top-main{
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: 100%;
 }
 
@@ -130,6 +130,7 @@ a:focus {
 }
 
 .name{
+    padding-top: 30px;
     font-family: "NB International Regular";
     font-size: 1.8rem;
 }
@@ -148,8 +149,7 @@ a:focus {
 
 .main-nav{
     font-family: "NB International Mono";
-    font-weight: lighter;
-    font-size: .9rem;
+    font-size: .8rem;
     padding-top: 8vh;
     display: flex;
     flex-wrap: wrap;
@@ -173,6 +173,7 @@ a:focus {
 
     .main-nav li{
         display: block;
+        margin: 10px 0;
     }
 
     .name{
