@@ -160,6 +160,31 @@ a:focus {
     padding: 10px 30px 10px 0;
 }
 
+#notion-link{
+      cursor: url("https://github.com/olzn/abstract-systems/blob/master/img/cursos/notion-cursor.png"), auto;
+}
+
+#github-link{
+    cursor: url("https://github.com/olzn/abstract-systems/blob/master/img/cursos/github-cursor.png"), auto;
+}
+
+#linkedin-link{
+    cursor: url("https://github.com/olzn/abstract-systems/blob/master/img/cursos/linkedin-cursor.png"), auto;
+}
+
+#dribbble-link{
+    cursor: url("https://github.com/olzn/abstract-systems/blob/master/img/cursos/dribbble-cursor.png"), auto;
+}
+
+#twitter-link{
+    cursor: url("https://github.com/olzn/abstract-systems/blob/master/img/cursos/twitter-cursor.png"), auto;
+}
+
+#email-link{
+    cursor: url("https://github.com/olzn/abstract-systems/blob/master/img/cursos/email-cursor.png"), auto;
+}
+
+
 
 /************** MEDIA QUERY & BREAKPOINTS *****************/
 
@@ -226,3 +251,5 @@ a:focus {
 
     }
   }
+
+
