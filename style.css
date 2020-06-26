@@ -162,29 +162,53 @@ a:focus {
 }
 
 #notion-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/notion-cursor.png"), auto;
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/notion-cursor.png"), auto;
 }
 
 #github-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/github-cursor.png"), auto;
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/github-cursor.png"), auto;
 }
 
 #linkedin-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/linkedin-cursor.png"), auto;
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/linkedin-cursor.png"), auto;
 }
 
 #dribbble-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/dribbble-cursor.png"), auto;
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/dribbble-cursor.png"), auto;
 }
 
 #twitter-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/twitter-cursor.png"), auto;
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/twitter-cursor.png"), auto;
 }
 
 #email-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/email-cursor.png"), auto;
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/email-cursor.png"), auto;
 }
 
+
+#notion-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/b3178e9fd2e9b05dd862d333df8566469a239a64/img/cursor/white/notion-white.svg"), auto;
+}
+
+#github-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/b3178e9fd2e9b05dd862d333df8566469a239a64/img/cursor/white/github-white.svg"), auto;
+}
+
+#linkedin-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/b3178e9fd2e9b05dd862d333df8566469a239a64/img/cursor/white/linkedin-white.svg"), auto;
+}
+
+#dribbble-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/b3178e9fd2e9b05dd862d333df8566469a239a64/img/cursor/white/dribbble-white.svg"), auto;
+}
+
+#twitter-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/b3178e9fd2e9b05dd862d333df8566469a239a64/img/cursor/white/twitter-white.svg"), auto;
+}
+
+#email-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/b3178e9fd2e9b05dd862d333df8566469a239a64/img/cursor/white/email-white.svg"), auto;
+}
 
 
 /************** MEDIA QUERY & BREAKPOINTS *****************/
