@@ -30,7 +30,7 @@
 
 @font-face {
     font-family: 'NBInternationalLightWebfont';
-    src: url('/NBInternationalLightWebfont.eot?#iefix') format('embedded-opentype'),  url('NBInternationalLightWebfont.woff') format('woff'), url('NBInternationalLightWebfont.ttf')  format('truetype'), url('NBInternationalLightWebfont.svg#NBInternationalLightWebfont') format('svg');
+    src: url('type2/NBInternationalLightWebfont/NBInternationalLightWebfont.eot#iefix') format('embedded-opentype'),  url('type2/NBInternationalLightWebfont/NBInternationalLightWebfont.woff') format('woff'), url('type2/NBInternationalLightWebfont/NBInternationalLightWebfont.ttf')  format('truetype'), url('type2/NBInternationalLightWebfont/NBInternationalLightWebfont.svg#NBInternationalLightWebfont') format('svg');
     font-weight: lighter;
     font-style: normal;
   }
@@ -44,7 +44,7 @@
 
 
 :root {
-    --base-font-family: "NBInternationalLightWebfont", "Helvetica Neue", sans-serif;
+    --base-font-family: "NBInternationalLightWebfont", sans-serif;
     --mono-font-family: "NBInternationalMonoWebfont", monospace;
     --background-color: #16161d;
     --base-text-color: #e5e5e5;
