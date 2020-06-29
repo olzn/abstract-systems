@@ -21,31 +21,30 @@
 
 
 @font-face {
-    font-family: 'NBInternationalRegularWebfont';
-    src: url('NBInternationalRegularWebfont.eot?#iefix') format('embedded-opentype'),  url('NBInternationalRegularWebfont.woff') format('woff'), url('NBInternationalRegularWebfont.ttf')  format('truetype'), url('NBInternationalRegularWebfont.svg#NBInternationalRegularWebfont') format('svg');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-
-@font-face {
-    font-family: 'NBInternationalLightWebfont';
-    src: url('NBInternationalLightWebfont.eot?#iefix') format('embedded-opentype'),  url('NBInternationalLightWebfont.woff') format('woff'), url('NBInternationalLightWebfont.ttf')  format('truetype'), url('NBInternationalLightWebfont.svg#NBInternationalLightWebfont') format('svg');
+    font-family: "NB-International-Pro-Light";
+    src: url('type/NB-International-Pro-Light/NB-International-Pro-Light.eot?#iefix') format('embedded-opentype'),  url('type/NB-International-Pro-Light/NB-International-Pro-Light.woff') format('woff'), url('type/NB-International-Pro-Light/NB-International-Pro-Light.ttf')  format('truetype'), url('type/NB-International-Pro-Light/NB-International-Pro-Light.svg#NB-International-Pro-Light') format('svg');
     font-weight: lighter;
     font-style: normal;
   }
-  
+
+
 @font-face {
-    font-family: 'NBInternationalMonoWebfont';
-    src: url('NBInternationalMonoWebfont.eot?#iefix') format('embedded-opentype'),  url('NBInternationalMonoWebfont.woff') format('woff'), url('NBInternationalMonoWebfont.ttf')  format('truetype'), url('NBInternationalMonoWebfont.svg#NBInternationalMonoWebfont') format('svg');
+    font-family: "NB-International-Pro-Regular";
+    src: url('type/NB-International-Pro-Regular/NB-International-Pro-Regular.eot?#iefix') format('embedded-opentype'),  url('type/NB-International-Pro-Regular/NB-International-Pro-Regular.woff') format('woff'), url('type/NB-International-Pro-Regular/NB-International-Pro-Regular.ttf')  format('truetype'), url('type/NB-International-Pro-Regular/NB-International-Pro-Regular.svg#NB-International-Pro-Regular') format('svg');
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'NB-International-Pro-Mono';
+    src: url('type/NB-International-Pro-Mono/NB-International-Pro-Mono.eot?#iefix') format('embedded-opentype'),  url('type/NB-International-Pro-Mono/NB-International-Pro-Mono.woff') format('woff'), url('type/NB-International-Pro-Mono/NB-International-Pro-Mono.ttf')  format('truetype'), url('type/NB-International-Pro-Mono/NB-International-Pro-Mono.svg#NB-International-Pro-Mono') format('svg');
     font-weight: lighter;
     font-style: normal;
   }
 
 
 :root {
-    --base-font-family: "NBInternationalLightWebfont", sans-serif;
-    --mono-font-family: "NBInternationalMonoWebfont", monospace;
+    --base-font-family: "NB-International-Pro-Light", sans-serif;
+    --mono-font-family: "NB-International-Pro-Mono", monospace;
     --background-color: #16161d;
     --base-text-color: #e5e5e5;
     --sec-text-color: #aaa;
@@ -136,7 +135,7 @@ a:focus {
 
 .name{
     padding-top: 30px;
-    font-family: "NBInternationalRegularWebfont";
+    font-family: "NB-International-Pro-Regular";
     font-size: 1.8rem;
 }
 
