@@ -164,30 +164,14 @@ a:focus {
     padding: 10px 30px 10px 0;
 }
 
-/* #notion-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/notion-cursor.png"), auto;
+
+
+/************** INTERACTIONS *****************/
+
+::selection {
+    background: #ffffff;
+    color: var(--background-color);
 }
-
-#github-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/github-cursor.png"), auto;
-}
-
-#linkedin-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/linkedin-cursor.png"), auto;
-}
-
-#dribbble-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/dribbble-cursor.png"), auto;
-}
-
-#twitter-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/twitter-cursor.png"), auto;
-}
-
-#email-link{
-    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/email-cursor.png"), auto;
-} */
-
 
 #notion-link{
     cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/b3178e9fd2e9b05dd862d333df8566469a239a64/img/cursor/white/notion-white.svg"), auto;
@@ -212,6 +196,31 @@ a:focus {
 #email-link{
     cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/b3178e9fd2e9b05dd862d333df8566469a239a64/img/cursor/white/email-white.svg"), auto;
 }
+
+/* #notion-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/notion-cursor.png"), auto;
+}
+
+#github-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/github-cursor.png"), auto;
+}
+
+#linkedin-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/linkedin-cursor.png"), auto;
+}
+
+#dribbble-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/dribbble-cursor.png"), auto;
+}
+
+#twitter-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/twitter-cursor.png"), auto;
+}
+
+#email-link{
+    cursor: url("https://raw.githubusercontent.com/olzn/abstract-systems/master/img/cursor/colour/email-cursor.png"), auto;
+} */
+
 
 
 /************** MEDIA QUERY & BREAKPOINTS *****************/
