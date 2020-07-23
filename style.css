@@ -164,6 +164,18 @@ a:focus {
     padding: 10px 30px 10px 0;
 }
 
+.inner-sanic {
+    position: absolute;
+    bottom: 0px;
+    left: -500px;
+}
+
+#sanic{
+    height: 100px;
+    width: 100px;
+}
+
+
 
 
 /************** INTERACTIONS *****************/
