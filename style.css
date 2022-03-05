@@ -136,14 +136,14 @@ a:focus {
 .name{
     padding-top: 30px;
     font-family: "NB-International-Pro-Regular";
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .location{
     font-family: var(--mono-font-family);   
     font-weight: lighter;
     opacity: 50%;
-    font-size: .9rem;
+    font-size: 1.2rem;
     padding-top: 4px;
 }
 
