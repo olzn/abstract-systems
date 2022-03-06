@@ -1,6 +1,3 @@
-import JSConfetti from 'js-confetti'
-
-
 var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
 var current = 0;
 
@@ -39,13 +36,14 @@ document.addEventListener('keydown', keyHandler, false);
 
 
 // Ghostfetti
-const button = document.getElementById('aave');
+
+const link = document.getElementById('aave');
 
 const jsConfetti = new JSConfetti()
 
-button.addEventListener('mouseenter', () => {
+link.addEventListener('mouseenter', () => {
 	jsConfetti.addConfetti({
-		emojis: ['🦄'],
-	})
-})  
+		emojis: ['👻'],
+	 })
+}) 
 
