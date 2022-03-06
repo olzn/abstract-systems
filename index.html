@@ -7,7 +7,19 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js" type="module"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js">
+            
+            import JSConfetti from 'js-confetti'
+
+            const button = document.getElementById('aave');
+
+            const jsConfetti = new JSConfetti()
+
+            button.addEventListener('mouseenter', () => {
+                jsConfetti.addConfetti()
+            })  
+            
+        </script>
         <script async defer data-domain="abstract.systems" src="https://plausible.io/js/plausible.js"></script>
         <script src="script.js"></script>
 
