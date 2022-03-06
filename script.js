@@ -39,18 +39,19 @@ document.addEventListener('keydown', keyHandler, false);
 
 // Ghostfetti
 
-const canvas = document.getElementById('ghostfetti')
-const button = document.getElementById('aave')
+// const canvasjs = document.getElementById('canvas');
+const button = document.getElementById('aave');
 
-const jsConfetti = new JSConfetti({ canvas })
+const jsConfetti = new JSConfetti({  })
 
-setTimeout(() => {
-	jsConfetti.addConfetti()
-  }, 500)
+setInterval(() => {
+	jsConfetti.addConfetti({
+	  emojis: ['🦄', '⚡️']
+	})
+  }, 2500)
 
 button.addEventListener('mouseenter', () => {
-  jsConfetti.addConfetti({
-	  emojis:['👻'],
-	})
+  jsConfetti.addConfetti()
+  console.log("test")
 })
 

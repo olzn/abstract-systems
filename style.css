@@ -91,7 +91,6 @@ canvas {
     height: 100%;
     position: absolute;
     border: 8px solid var(--base-text-color);
-    z-index: -1;
   }
 
 /************** CLASSES *****************/
@@ -195,7 +194,6 @@ canvas {
 
 #aave{
     cursor: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/ghost_1f47b.png"), auto;
-    animation: appearFromBottom 2s ease-out 1.5s forwards;
 }
 
 #notion-link{
