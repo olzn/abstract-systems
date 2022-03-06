@@ -1,3 +1,5 @@
+import JSConfetti from 'js-confetti'
+
 var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
 var current = 0;
 
@@ -35,10 +37,10 @@ function elementAnimate(){
 document.addEventListener('keydown', keyHandler, false);
 
 
-// Ghost confetti
+// Ghostfetti
 
-const canvas = document.getElementById('canvas')
-const link = document.getElementById('aave')
+const canvas = document.getElementById('ghostfetti')
+const button = document.getElementById('aave')
 
 const jsConfetti = new JSConfetti({ canvas })
 
@@ -46,7 +48,7 @@ setTimeout(() => {
 	jsConfetti.addConfetti()
   }, 500)
 
-link.addEventListener('click', () => {
+button.addEventListener('mouseenter', () => {
   jsConfetti.addConfetti({
 	  emojis:['👻'],
 	})
