@@ -1,11 +1,5 @@
 {
   "dependencies": {
     "js-confetti": "^0.10.2"
-  },
-  "name": "js-confetti",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "repository": "https://github.com/olzn/abstract-systems.git",
-  "license": "MIT"
+  }
 }
