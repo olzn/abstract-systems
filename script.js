@@ -33,3 +33,22 @@ function elementAnimate(){
 
 // Listen for keydown events
 document.addEventListener('keydown', keyHandler, false);
+
+
+// Ghost confetti
+
+const canvas = document.getElementById('canvas')
+const link = document.getElementById('aave')
+
+const jsConfetti = new JSConfetti({ canvas })
+
+setTimeout(() => {
+	jsConfetti.addConfetti()
+  }, 500)
+
+link.addEventListener('click', () => {
+  jsConfetti.addConfetti({
+	  emojis:['👻'],
+	})
+})
+

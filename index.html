@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <script async defer data-domain="abstract.systems" src="https://plausible.io/js/plausible.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
         <script src="script.js"></script>
 
         <link rel="stylesheet" href="/style.css">
@@ -15,6 +16,7 @@
         
     </head>
     <body class>
+        <canvas id="canvas"></canvas>
         <div class="root">
             <header class="top">
                 <div class="top-main">
@@ -23,13 +25,13 @@
                             <h1>interface</h1>
                         </div>
                         <div class="top-text top-arrow">
-                            <span>⟶</span>
+                            <span>⭢</span>
                         </div>
                         <div class="top-text top-text2">
                             <h1>interaction</h1>
                         </div>
                         <div class="top-text top-arrow">
-                            <span>⟶</span>
+                            <span>⭢</span>
                         </div>
                         <div class="top-text top-text3">
                             <h1>experience</h1>
@@ -41,7 +43,7 @@
             <section class="bottom">
                 <div class="bottom-main">
                     <div class="name">
-                        <p>oscar lozano ∥ ᴜx／ᴜɪ @̷ ᴀᴀᴠᴇ</p>
+                        <p>oscar lozano ∥ <span id="">ᴜx／ᴜɪ @̷ <button id="aave">ᴀᴀᴠᴇ</button></span></p>
                     </div>
                     <div class="location">
                         <p>ᴍx ⇉ ᴜᴋ</p>
