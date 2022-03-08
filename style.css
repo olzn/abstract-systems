@@ -187,7 +187,7 @@ a:focus {
 }
 
 #aave{
-    cursor: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/ghost_1f47b.png"), auto;
+    cursor: url("./img/cursor/colour/ghost.png"), auto;
 }
 
 /* #notion-link{

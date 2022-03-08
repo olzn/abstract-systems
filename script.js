@@ -44,6 +44,8 @@ const jsConfetti = new JSConfetti()
 link.addEventListener('mouseenter', () => {
 	jsConfetti.addConfetti({
 		emojis: ['👻'],
+		emojiSize: 70,
+		confettiNumber: 200,
 	 })
 }) 
 
